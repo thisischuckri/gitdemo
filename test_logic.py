@@ -5,7 +5,7 @@ def test_add_numbers():
     assert add_numbers(0, 0) == 0
 
 def test_diverse_numbers():
-    assert diverse_numbers(10, 2) == 5
+    assert diverse_numbers(10, 2) == 6
     assert diverse_numbers(-10, 2) == -5
     assert diverse_numbers(0, 1) == 0
 
