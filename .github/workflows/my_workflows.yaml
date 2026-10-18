@@ -27,4 +27,4 @@ jobs:
           python app.py
       - name: Run tests
         run: |
-          pytest test_logic.py
+          python -m pytest test_logic.py
