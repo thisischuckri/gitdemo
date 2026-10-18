@@ -24,4 +24,7 @@ jobs:
           pip install -r requirements.txt    
       - name: Run the Python script
         run: |
-          python app.py    
+          python app.py
+      - name: Run tests
+        run: |
+          pytest test_logic.py
