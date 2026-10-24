@@ -28,8 +28,7 @@ jobs:
       - name: Run tests
         run: |
           python -m pytest test_logic.py
--
-        name: Checkout
+      - name: Checkout
         uses: actions/checkout@v6
       -
         name: Login to Docker Hub
