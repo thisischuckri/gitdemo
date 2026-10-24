@@ -48,5 +48,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: cvangara/docker-demo:{{ github.sha }}          
+          tags: cvangara/docker-demo:${{ github.sha }}
           
